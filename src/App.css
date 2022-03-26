@@ -1,0 +1,139 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(191, 183, 180);
+}
+
+.logo {
+    height: 70px;
+    margin-left: 3rem;
+    border-radius: 50%;
+
+}
+
+/* Home Header Section */
+.Home-header-container {
+    /* background-image: url('./images/amazon2.jpg'); */
+
+
+}
+
+.front-home-img {
+    width: 100%;
+    height: 20%;
+}
+
+/* courses header */
+.explore-btn {
+    position: relative;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    color: blue;
+    background-color: yellow;
+}
+
+/* Contact us */
+.contact-form {
+    background-color: rgb(22, 33, 49);
+    padding: 1rem;
+    color: whitesmoke;
+    border: 2px rgb(20, 245, 226) solid;
+    border-radius: 1rem;
+}
+
+.contact-card {
+    background-color: rgb(46, 34, 46);
+    color: white;
+    height: 200px;
+    border: 2px tan solid;
+    box-shadow: 2px 3px 4px 3px gray;
+    border-radius: 4px;
+}
+
+/* skill */
+.card-img-parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.card-img {
+    width: 50%;
+    height: auto;
+}
+
+/* Health  and safety  Courses section */
+.safe-card-img {
+    height: 250px;
+    width: auto;
+}
+
+.safe-card {
+    box-shadow: 2px 3px 4px 2px rgb(100, 74, 7);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    justify-content: center;
+
+}
+
+.course-detail-img {
+    height: 400px;
+}
+
+.detail-header {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+/* Amazon section */
+.amazon-container {
+    background-color: rgb(66, 2, 75);
+
+    color: rgb(243, 223, 236);
+    text-align: justify;
+    padding: 1rem;
+}
+
+/* About us */
+.about-container {
+    background-color: rgb(22, 33, 49);
+    color: whitesmoke;
+    padding: 2rem;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+.footer {
+    margin-top: auto;
+    background-color: rgb(0, 6, 57);
+    color: wheat;
+    margin-bottom: 0px;
+
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer-list:hover {
+    text-transform: uppercase;
+    color: rgb(245, 239, 239);
+    list-style-type: none;
+    text-decoration: none;
+    padding: 1rem;
+}
